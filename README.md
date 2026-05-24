@@ -7,7 +7,9 @@ A simple web application that classifies uploaded images as either **Vehicle**, 
 ## Quick Links
 
 - **Live Demo**: [https://suchith-ml.github.io/vehicle-animal-classifier/](https://suchith-ml.github.io/vehicle-animal-classifier/)
-- **GitHub Repository**: [https://github.com/suchith-ml/vehicle-animal-classifier](https://github.com/suchith-ml/vehicle-animal-classifier) https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git
+- **GitHub Repository**: [https://github.com/suchith-ml/vehicle-animal-classifier](https://github.com/suchith-ml/vehicle-animal-classifier)
+-
+https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git
 
 ## What It Does
 
