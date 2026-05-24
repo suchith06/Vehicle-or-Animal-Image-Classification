@@ -20,7 +20,7 @@ const ANIMAL_KEYWORDS = [
     'chimpanzee', 'gorilla', 'zebra', 'giraffe', 'rhinoceros', 'hippopotamus',
     'crocodile', 'alligator', 'beetle', 'butterfly', 'spider', 'ant', 'bee',
     'wasp', 'dragonfly', 'ladybug', 'puppy', 'kitten', 'calf', 'lamb', 'foal',
-    'piglet', 'chick', 'duckling', 'gosling', 'kitten', 'pony', 'colt'
+    'piglet', 'chick', 'duckling', 'gosling', 'kitten', 'pony', 'colt', 'ox'
 ];
 
 // Initialize the model when page loads
