@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle & Animal Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 🐾 Vehicle & Animal Classifier</h1>
+            <p>Upload an image to classify it as a Vehicle, Animal, or Unknown</p>
+        </header>
+
+        <main>
+            <section class="upload-section">
+                <div class="upload-box" id="uploadBox">
+                    <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <p class="upload-text">Drag and drop an image here or click to select</p>
+                    <p class="upload-hint">JPG, PNG • Max 5 MB</p>
+                    <input 
+                        type="file" 
+                        id="fileInput" 
+                        accept="image/jpeg,image/png" 
+                        hidden
+                    >
+                </div>
+
+                <div id="validationError" class="error-message" style="display: none;"></div>
+            </section>
+
+            <section id="previewSection" class="preview-section" style="display: none;">
+                <div class="preview-container">
+                    <img id="previewImage" src="" alt="Preview" class="preview-image">
+                </div>
+            </section>
+
+            <section id="resultSection" class="result-section" style="display: none;">
+                <div id="loadingIndicator" class="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Classifying image...</p>
+                </div>
+
+                <div id="resultContainer" style="display: none;">
+                    <div class="result-card">
+                        <div id="classificationResult" class="classification-result"></div>
+                        <div id="confidenceScore" class="confidence-score"></div>
+                        <div id="allPredictions" class="all-predictions"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="button-section">
+                <button id="classifyBtn" class="btn btn-primary" disabled>
+                    Classify Image
+                </button>
+                <button id="resetBtn" class="btn btn-secondary" style="display: none;">
+                    Upload Another
+                </button>
+            </section>
+
+            <section class="test-cases">
+                <h2>📋 Test Cases</h2>
+                <p>Try with these types of images:</p>
+                <ul>
+                    <li><strong>Vehicle:</strong> Car, truck, motorcycle, bus, airplane</li>
+                    <li><strong>Animal:</strong> Dog, cat, bird, horse, elephant</li>
+                    <li><strong>Unknown:</strong> Furniture, plants, people, food</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with TensorFlow.js • <a href="https://github.com/suchith-ml/vehicle-animal-classifier" target="_blank">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0"></script>
+    <script src="app.js"></script>
+</body>
+</html>
