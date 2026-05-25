@@ -7,8 +7,6 @@ It is a web application that analyses the uploaded images and classify the image
 
 - **Live Demo**: https://suchith06.github.io/Vehicle-or-Animal-Image-Classification/
 - **GitHub Repository**:(https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git)
--
-https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git
 
 ## What It Does
 
