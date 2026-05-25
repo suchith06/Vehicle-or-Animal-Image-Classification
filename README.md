@@ -1,8 +1,7 @@
-# Vehicle-or-Animal-Image-Classification
-Vehicle or Animal Image Classification Application
+
 # Vehicle & Animal Classifier
 
-A simple web application that classifies uploaded images as either **Vehicle**, **Animal**, or **Unknown** using pre-trained machine learning models.
+It is a web application that analyses the uploaded images and classify the image to 3 categories: Vehicles (Cars, Trucks, Planes Boats), Animals (Dogs, Cats, Birds, Elephants) or Unknown (for the objects on either of the categories). User can simply drag and drop the images or upload JPG/PNG image (upto 5MB) without backend server requirements . Then the application instantly displays the classification with confidence score and top 5 Predicted labels.
 
 ## Quick Links
 
