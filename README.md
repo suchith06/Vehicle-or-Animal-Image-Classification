@@ -8,7 +8,7 @@ It is a web application that analyses the uploaded images and classify the image
 - **Live Demo**: https://suchith06.github.io/Vehicle-or-Animal-Image-Classification/
 - **GitHub Repository**: https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git
 
-## What It Does
+## Purpose
 
 Upload an image (JPG or PNG), and the app will analyze it and classify the main object as:
 - **🚗 Vehicle**: Cars, trucks, motorcycles, planes, boats, etc.
