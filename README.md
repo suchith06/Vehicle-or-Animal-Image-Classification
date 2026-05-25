@@ -78,10 +78,10 @@ Test Case 3: Unknown Classification
 ## Whether you used AI coding tools.
 Tool: Claude AI (Anthropic)
 Used For:
-- •	Architecture design recommendations
-- •	HTML/CSS/JavaScript code generation (~80% of code)
-- •	Comprehensive documentation (~80% of docs)
-- •	Testing strategy development
+- Architecture design recommendations
+- HTML/CSS/JavaScript code generation (~80% of code)
+- Comprehensive documentation (~80% of docs)
+- Testing strategy development
 
 ## How to Run Locally
 
