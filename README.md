@@ -50,7 +50,7 @@ Test Case 3: Unknown Classification
 
 
 ## Known Limitations
-**Model Limitations: **
+**Model Limitations:**
 1.	ImageNet Bias - Only recognizes 1,000 classes from training data
 2.	Single Object - Only classifies dominant object, not multiple objects
 3.	Small/Distant Objects - May not recognize tiny or far-away objects
