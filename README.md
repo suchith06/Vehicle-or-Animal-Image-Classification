@@ -39,17 +39,17 @@ Steps to follow:
 
 ## How to test it
 Test Case 1: Vehicle Classification
-•	Upload: Car, truck, motorcycle, or airplane
-•	Expected:  Vehicle (70-95% confidence)
-•	Check: Top 5 predictions show vehicle types
+- Upload: Car, truck, motorcycle, or airplane
+- Expected:  Vehicle (70-95% confidence)
+- Check: Top 5 predictions show vehicle types
 Test Case 2: Animal Classification
-•	Upload: Dog, cat, bird, horse, or elephant
-•	Expected: Animal (70-95% confidence)
-•	Check: Breed/type shown in predictions
+- Upload: Dog, cat, bird, horse, or elephant
+- Expected: Animal (70-95% confidence)
+- Check: Breed/type shown in predictions
 Test Case 3: Unknown Classification
-•	Upload: Furniture, food, person, or building
-•	Expected: Unknown classification
-•	Check: App handles gracefully, no crashes
+- Upload: Furniture, food, person, or building
+- Expected: Unknown classification
+- Check: App handles gracefully, no crashes
 
 ## Known Limitations
 **Model Limitations:**
