@@ -5,8 +5,8 @@ It is a web application that analyses the uploaded images and classify the image
 
 ## Quick Links
 
-- **Live Demo**: [https://suchith-ml.github.io/vehicle-animal-classifier/](https://suchith-ml.github.io/vehicle-animal-classifier/)
-- **GitHub Repository**: [https://github.com/suchith-ml/vehicle-animal-classifier](https://github.com/suchith-ml/vehicle-animal-classifier)
+- **Live Demo**: 
+- **GitHub Repository**:(https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git)
 -
 https://github.com/suchith06/Vehicle-or-Animal-Image-Classification.git
 
@@ -19,14 +19,14 @@ Upload an image (JPG or PNG), and the app will analyze it and classify the main 
 
 The app displays a confidence score and the top 5 predicted labels from the underlying model.
 
-How to run locally.
+## How to run locally.
 1.	Directly open file - index.html
 2.	Python server (after changing the directory) – python -m http.sever 8000
 3.	Node.js servers – 
 npm install -g http-server 
 http-server
 
-**How the classification works?**
+## How the classification works?
 Model: MobileNet v2 via TensorFlow.js
 Steps to follow:
 1.	Upload the image -
@@ -36,7 +36,7 @@ b.	Size: 5MB
 3.	Post- processing – App maps prediction to Vehicle/Animal/Unknown using keyword matching.
 4.	Results – it shows category, confidence % and top 5 predictions.
 
-**How to test it **
+## How to test it
 Test Case 1: Vehicle Classification
 •	Upload: Car, truck, motorcycle, or airplane
 •	Expected:  Vehicle (70-95% confidence)
@@ -51,14 +51,14 @@ Test Case 3: Unknown Classification
 •	Check: App handles gracefully, no crashes
 
 
-Known Limitations
-Model Limitations: 
+## Known Limitations
+**Model Limitations: **
 1.	ImageNet Bias - Only recognizes 1,000 classes from training data
 2.	Single Object - Only classifies dominant object, not multiple objects
 3.	Small/Distant Objects - May not recognize tiny or far-away objects
 4.	Novel Objects - Rare items not in training may fail
 5.	Unreliable Confidence - 85% ≠ 85% chance of correctness
-Application Limitations:
+**Application Limitations:**
 1.	No GPU - CPU only, slower on older devices (1-5 seconds)
 2.	File Size: 5 MB Max - Prevents huge files
 3.	JPG/PNG Only - No GIF, WebP, BMP
@@ -66,19 +66,18 @@ Application Limitations:
 5.	No Storage - Images not saved
 6.	Not Customizable - Can't retrain model
 7.	Resolution - Very high-res images (8000+ px) may be slow
-Edge Cases:
+**Edge Cases:**
 •	Toy vehicles → Often classified as Unknown
 •	Horse carriages → Could be Vehicle or Animal (ambiguous)
 •	Drawings/cartoons → Often classified as Unknown
 •	Stuffed animals → Classified as Unknown (sees toy, not animal)
 
-
-**Approximate hours spent:**
+## Approximate hours spent:
 2.5 hours to 3 hours
 
 
 
-**Whether you used AI coding tools.**
+## Whether you used AI coding tools.
 Tool: Claude AI (Anthropic)
 Used For:
 •	Architecture design recommendations
