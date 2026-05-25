@@ -28,14 +28,14 @@ http-server
 Model: MobileNet v2 via TensorFlow.js
 Steps to follow:
 1.	Upload the image 
-- a.	Type: JPG/PNG
-- b.	Size: 5MB
+- Type: JPG/PNG
+- Size: 5MB
 2.	Model Interference
-- MobileNetv2 analyses image, output 1000 class predictions
+- MobileNet v2 analyzes the image and generates predictions from 1,000 ImageNet classes.
 3.	Post- processing
-- App maps prediction to Vehicle/Animal/Unknown using keyword matching.
+- The application maps the predicted classes into Vehicle, Animal, or Unknown categories using keyword matching.
 4.	Results
-- it shows category, confidence % and top 5 predictions.
+- it shows category, confidence % and top 5 predictions labels.
 
 ## How to test it
 Test Case 1: Vehicle Classification
@@ -50,7 +50,6 @@ Test Case 3: Unknown Classification
 •	Upload: Furniture, food, person, or building
 •	Expected: Unknown classification
 •	Check: App handles gracefully, no crashes
-
 
 ## Known Limitations
 **Model Limitations:**
@@ -73,20 +72,16 @@ Test Case 3: Unknown Classification
 •	Drawings/cartoons → Often classified as Unknown
 •	Stuffed animals → Classified as Unknown (sees toy, not animal)
 
-## Approximate hours spent:
-2.5 hours to 3 hours
+## Approximate Time Spent:
+Approximately 2.5 hours to 3 hours
 
-
-
-## Whether you used AI coding tools.
+## AI coding tools Used:
 Tool: Claude AI (Anthropic)
 Used For:
 - Architecture design recommendations.
 - HTML/CSS/JavaScript code generation (~80% of code)
 - Comprehensive documentation (~80% of docs) for referance.
 - Testing strategy development.
-
-## How to Run Locally
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
