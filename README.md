@@ -27,12 +27,15 @@ http-server
 ## How the classification works?
 Model: MobileNet v2 via TensorFlow.js
 Steps to follow:
-1.	Upload the image -
-a.	Type: JPG/PNG
-b.	Size: 5MB
-2.	Model Interference – MobileNetv2 analyses image, output 1000 class predictions
-3.	Post- processing – App maps prediction to Vehicle/Animal/Unknown using keyword matching.
-4.	Results – it shows category, confidence % and top 5 predictions.
+1.	Upload the image 
+- a.	Type: JPG/PNG
+- b.	Size: 5MB
+2.	Model Interference
+- MobileNetv2 analyses image, output 1000 class predictions
+3.	Post- processing
+- App maps prediction to Vehicle/Animal/Unknown using keyword matching.
+4.	Results
+- it shows category, confidence % and top 5 predictions.
 
 ## How to test it
 Test Case 1: Vehicle Classification
